@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('https://www.turvyai.uk/', {
+    const response = await fetch('https://codex-97ou.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
